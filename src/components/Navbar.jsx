@@ -29,9 +29,6 @@ const Navbar = () =>{
                     </a>                   
                 </div>
                 <a className="hidden bg-blue-500 px-3 py-2 hover:bg-green-400 rounded-xl cursor-pointer md:block">
-
-
-
                     Get Started sdfsdf
                 </a>
                 <button
