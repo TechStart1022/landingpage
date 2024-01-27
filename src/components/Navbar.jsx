@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import { Link } from "react-router-dom";
 
-import comanylogo from '../assets/images/logo.svg'
+import companylogo from '../assets/images/logo.svg'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="p-6 container mx-auto">
             <div className="flex items-center justify-between">
                 <div className="pt-2">
-                    <img src={comanylogo} alt="companylogo" />
+                    <img src={companylogo} alt="companylogo" />
                 </div>
                 <div className="hidden space-x-4 md:flex">
                     <a to='#' className="hover:text-green-500 cursor-pointer">
